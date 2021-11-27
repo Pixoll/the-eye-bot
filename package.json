@@ -1,0 +1,34 @@
+{
+  "name": "the-eye-bot",
+  "version": "1.0.0",
+  "description": "*stalks*",
+  "main": "index.js",
+  "dependencies": {
+    "discord.js": "^13.3.1",
+    "dotenv": "^10.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": "16.x",
+    "npm": "8.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pixoll/the-eye-bot"
+  },
+  "author": "Pixoll",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Pixoll/the-eye-bot/issues"
+  },
+  "homepage": "https://github.com/Pixoll/the-eye-bot/#readme",
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.1.1"
+  }
+}
