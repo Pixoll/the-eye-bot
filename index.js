@@ -18,8 +18,8 @@ const ownerChanId = '899780764219113534'
 /** @type {TextChannel} */
 let channel
 
-client.on('presenceUpdate', async (_, { user, userId, status }) => {
-    if (userId !== pixelId) return
+client.on('presenceUpdate', async (old, { user, userId, status }) => {
+    if (userId !== pixelId || old.status === status) return
 
     channel ??= await client.channels.fetch(ownerChanId)
 
